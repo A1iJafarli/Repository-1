@@ -19,8 +19,7 @@ print()
 time.sleep(1)
 running = True
 while running:
-    word = input('''
-Anlamadığınız bir kelime yazın: ''').upper()
+    word = input("Anlamadığınız bir kelime yazın: \n").upper()
     print()
     if word == "DURDUR":
         print()
